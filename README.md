@@ -16,4 +16,4 @@ good to go!
 3. Now lets edit the text file! Open the file with your favorite text-editor and add your github username to the file. After you've made your edit you'll want to make a commit, this can be done in a series of steps. First add all the files by using `git add .` (The period is just a shortcut to add everything in the directory), then use the command `git commit -m "<commit message here>". It's extremely important to have a descriptive commit message detailing what you worked on.
 4. Before pushing your changes we can take a quick look at the diff command. By using the command `git diff <filename>` you'll be able to see all of the changes you've made to the file.
 5. Now you can push your changes to your branch. Do this by running `git push origin <branch name>`.
-6. To merge your changes with the master branch you'll need to execute a pull request. Do 
+6. Once the push is successfull, navigate the github page for this repo and create a pull request to merge your branch into the master. 
